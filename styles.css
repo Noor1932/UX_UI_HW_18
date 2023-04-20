@@ -1,6 +1,8 @@
+
+/*Flex*/
+
 .flexcontainer{
     display:flex;
-    flex-direction: row;
     background-color:azure;
     padding:20px;
     margin:25px;
@@ -8,9 +10,7 @@
     text-align: center;
 }
 
-.projectimg{
-    width:70%;
- }
+
 
 .Researcher{
     width:33%;
@@ -47,7 +47,7 @@ p{
 
 }
 
-
+/*Grid */
 .itemm1{
     grid-area:itemm1;
     object-fit:cover;
@@ -92,6 +92,7 @@ button{
 button:hover{
 background-color:black;
 color:white;
+border-color:white;
 }
 
 
